@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form with Draw Animation</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+
+<body>
+    <div class="form-container">
+        <svg id="formSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+        </svg>
+        <div class="form-content">
+            <h2>Contact Us</h2>
+            <div class="form-components">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+				<input type="tel" placeholder="Phone">
+                <textarea placeholder="Message"></textarea>
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+	<script src="movida.js"></script>
+    <script src="formInMotion.js"></script>
+    <script>
+        formInMotion('.form-components', 'formSVG', {
+			duration: 1000,
+		}); 
+    </script>
+</body>
+</html>
