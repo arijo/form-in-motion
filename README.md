@@ -1,5 +1,5 @@
 # form-in-motion
-Small animation library that renders a from like iit is being drawn on the screen.
+Small animation library that renders a from like iit is being hand drawn on the screen.
 
 # Setup
 ```
