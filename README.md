@@ -1,5 +1,5 @@
 # form-in-motion
-Small animation library that renders a form like iit is being hand drawn on the screen.
+Small animation library that renders a form like it is being hand drawn on the screen.
 
 # Setup
 ```
